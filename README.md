@@ -1,109 +1,54 @@
-# Unit 09 Node.js and ES6+ Homework: Good README Generator
 
-Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
+# Good README Generator
 
-```sh
-node index.js
-```
-// define three methods, each that either uses a callback or promises structure to handle asychronous requests
 
-The user will be prompted for their GitHub username, 
-which will be used to make a call to the GitHub API to retrieve their email and profile image. 
-They will then be prompted with questions about their project.
+## Description
 
-// I need to use the 'FS' or File System module, to write a new file (readme.md) (using Markdown syntax)
-The README will be populated with the following:
+This README generator will ask questions about your project and create a file for your README. If one is already present, it will overwrite it with the answers obtained from your questions
 
-* At least one badge
-* Project title
-* Description
-* Table of Contents
-* Installation
-* Usage
-* License
-* Contributing
-* Tests
-* Questions
-  * User GitHub profile picture
-  * User GitHub email
+## Table of Contents 
 
-Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
+* [Installation](#installation)
+
+* [Usage](#usage)
+
+* [License](#license)
+
+* [Contributing](#contributing)
+
+* [Tests](#tests)
+
+* [Questions](#questions)
+
+## Installation
+
+To install necessary dependencies, run the following command:
 
 ```
-AS A developer
-
-I WANT a README generator
-
-SO THAT I can easily put together a good README for a new project
+npm i
 ```
 
-Refer to the [Good README guide](../../01-HTML-Git-CSS/04-Supplemental/Good-README-Guide/README.md).
+## Usage
 
-## Business Context
+You can see all of the code to copy and use for yourself
 
-When preparing a report for stakeholders, it is important to have up-to-date information about members of the development team. Rather than navigating to each team member's GitHub profile, a command-line application will allow for quick and easy generation of profiles in PDF format.
 
-## Minimum Requirements
+  
+## Contributing
 
-* Functional, deployed application.
+Please don't, it finally works. If you must, you can contact me to add/edit this project
 
-* GitHub repository with a unique name and a README describing project.
+## Tests
 
-* The generated README includes a bio image from the user's GitHub profile.
-
-* The generated README includes the user's email.
-
-* The generated README includes the following sections: 
-  * Title
-  * Description
-  * Table of Contents
-  * Installation
-  * Usage
-  * License
-  * Contributing
-  * Tests
-  * Questions
-
-* The generated README includes 1 badge that's specific to the repository.
+To run tests, run the following command:
 
 ```
-GIVEN the developer has a GitHub profile and a repository
-
-WHEN prompted for the developer's GitHub username and repo specific information
-
-THEN a README for the repo is generated
+npm test
 ```
-- - -
 
-## Commit Early and Often
+## Questions
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+<img src="https://avatars2.githubusercontent.com/u/60954393?v=4" alt="avatar" style="border-radius: 15px" width="25" />
 
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+If you have any questions about the repo, open an issue or contact [megannh6349](https://api.github.com/users/Megannh6349) directly at null.
 
-* Your commit history allows you to revert your code base in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have more than 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* An animated GIF demonstrating the app functionality
-
-* A generated PDF of your GitHub profile
-
-* The URL of the GitHub repository
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
