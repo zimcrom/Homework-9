@@ -50,5 +50,5 @@ npm test
 
 <img src="https://avatars2.githubusercontent.com/u/60954393?v=4" alt="avatar" style="border-radius: 15px" width="25" />
 
-If you have any questions about the repo, open an issue or contact [megannh6349](https://api.github.com/users/Megannh6349) directly at null.
+If you have any questions about the repo, open an issue or contact [megannh6349](https://api.github.com/users/Megannh6349) directly.
 
