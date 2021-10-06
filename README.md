@@ -25,14 +25,18 @@ This README generator will ask questions about your project and create a file fo
 To install necessary dependencies, run the following command:
 
 ```
-npm i
+npm i inquirer axios
 ```
 
 ## Usage
 
-You can see all of the code to copy and use for yourself
+You can see all of the code to copy and use for yourself. When you copy it and install the dependencies, simply use 
 
+```
+node index.js
+```
 
+to begin
   
 ## Contributing
 
@@ -50,5 +54,5 @@ npm test
 
 <img src="https://avatars2.githubusercontent.com/u/60954393?v=4" alt="avatar" style="border-radius: 15px" width="25" />
 
-If you have any questions about the repo, open an issue or contact [megannh6349](https://api.github.com/users/Megannh6349) directly.
+If you have any questions about the repo, open an issue or contact [zimcrom](https://api.github.com/users/Zimcrom) directly.
 
