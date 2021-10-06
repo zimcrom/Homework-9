@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.2",
+    "axios": "^0.21.4",
     "dotenv": "^8.2.0",
     "electron": ">=7.2.4",
     "electron-html-to": "^2.6.0",
